@@ -1,6 +1,6 @@
 
 
-# Bookmark&MemoChrome Extension
+# Bookmark & Memo Chrome Extension
 
 >ChromeでBookmarkとメモを保存する拡張機能です
 
