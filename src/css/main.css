@@ -19,6 +19,7 @@
 
 .bookmark-li .bookmark-title .page-img {
   border-radius: 7px;
+  min-width: 30px;
 }
 
 .bookmark-li .bookmark-title .page-name {
@@ -38,6 +39,8 @@
   box-sizing: border-box;
   margin: 5px 0px;
   width: 100%;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .bookmark-li .save-button {
@@ -50,6 +53,7 @@
   color: #fff;
   border-bottom: solid 4px #627295;
   border-radius: 3px;
+  cursor: pointer;
 }
 .bookmark-li .save-button:active {
   -webkit-transform: translateY(4px);
@@ -70,4 +74,5 @@
   position: absolute;
   right: 5px;
   top: 3px;
+  cursor: pointer;
 }

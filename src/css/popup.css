@@ -16,6 +16,7 @@ body {
   color: #fff;
   border-bottom: solid 4px #556b2f;
   border-radius: 3px;
+  cursor: pointer;
 }
 .open-button:active {
   -webkit-transform: translateY(4px);

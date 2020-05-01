@@ -1,6 +1,6 @@
 //各ブックマークのサイトのテンプレート
 const site_template =
-  '<li class="bookmark-li"> <a class="bookmark-title"> <img class="page-img" width="30" height="30" /> <h3 class="page-name">タイトル</h3> </a> <p class="bookmark-url"> example.com </p> <textarea class="bookmark-content" rows="5" name="content"></textarea> <button class="save-button"/>save</button> <button class="delete-button">✗</button></li>';
+  '<li class="bookmark-li"> <a class="bookmark-title"> <img class="page-img" width="30" height="30" /> <h3 class="page-name">タイトル</h3> </a> <p class="bookmark-url"> example.com </p> <textarea class="bookmark-content" rows="3" name="content"></textarea> <button class="save-button"/>save</button> <button class="delete-button">✗</button></li>';
 
 //文字列をHTML要素に変換する関数
 function createElementFromHTML(html) {
