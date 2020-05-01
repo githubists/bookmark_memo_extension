@@ -3,7 +3,7 @@
 # Bookmark & Memo Chrome Extension
 
 >ChromeでBookmarkとメモを保存する拡張機能です
-
+![Screenshot](screenshot.png)
 
 ## Installation
 
