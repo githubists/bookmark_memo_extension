@@ -1,0 +1,25 @@
+body {
+  width: 410px;
+  margin: 7px 0;
+}
+
+.save-button {
+  width: 100% !important;
+}
+.open-button {
+  display: inline-block;
+  width: 100%;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  background: #009000;
+  color: #fff;
+  border-bottom: solid 4px #556b2f;
+  border-radius: 3px;
+}
+.open-button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+  margin-bottom: 4px;
+}

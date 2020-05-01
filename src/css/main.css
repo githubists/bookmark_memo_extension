@@ -1,0 +1,73 @@
+.bookmark-ul {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.bookmark-li {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background: whitesmoke;
+  margin: 10px 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bookmark-li .bookmark-title {
+  display: flex;
+}
+
+.bookmark-li .bookmark-title .page-img {
+  border-radius: 7px;
+}
+
+.bookmark-li .bookmark-title .page-name {
+  margin: 0px 10px;
+  font-size: 13px;
+  line-height: 30px;
+  color: black;
+}
+
+.bookmark-li .bookmark-url {
+  margin: 5px 0px;
+  font-size: 10px;
+}
+
+.bookmark-li .bookmark-content {
+  display: block;
+  box-sizing: border-box;
+  margin: 5px 0px;
+  width: 100%;
+}
+
+.bookmark-li .save-button {
+  display: inline-block;
+  width: 44px;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  background: #668ad8;
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.bookmark-li .save-button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+  margin-bottom: 4px;
+}
+
+.bookmark-li .delete-button {
+  background: red;
+  color: black;
+  font-weight: 900;
+  height: 20px;
+  width: 20px;
+  padding: 1px;
+  font-size: 11px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
